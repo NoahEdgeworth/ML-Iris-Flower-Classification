@@ -3,23 +3,6 @@
 ## Project Overview
 This project is an end-to-end machine learning pipeline designed to classify iris flowers into one of three species: *Iris-setosa*, *Iris-versicolor*, and *Iris-virginica*. The project uses the classic Iris dataset, which is well-suited for demonstrating fundamental machine learning concepts. The goal is to build a model that can accurately classify new iris flower samples based on sepal and petal dimensions.
 
-## Folder Structure
-ML - Iris Flower Project/
-│
-├── data/                 # (Optional) Contains any external data files
-├── models/               # Directory to save trained models
-├── notebooks/            # Jupyter notebooks for EDA and model training
-│   ├── iris_data_analysis.ipynb
-│
-├── src/                  # Source code for data handling and training
-│   ├── data_loader.ipynb # Notebook to load and understand the data
-│   ├── preprocess.ipynb  # Notebook for data preprocessing and scaling
-│   └── train.ipynb       # Notebook for training and evaluating models
-│
-├── visuals/              # (Optional) Folder to save plots and visualizations
-│
-└── README.md             # Project overview and setup instructions
-
 ## Project Workflow
 ### 1. Data Loading and Exploration
 - Load the Iris dataset using `scikit-learn` and convert it into a `pandas DataFrame`.
